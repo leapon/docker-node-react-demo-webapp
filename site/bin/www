@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+var debug = require('debug')('leapbase');
+
+require('../app')(function(app) {
+    var portNumber = app.setting.http_port;
+    console.log('Web server is listening on port ' + portNumber + ' ...');
+    app.server.set('port', portNumber);
+    var webServer = app.server.listen(app.server.get('port'), function() {
+        //debug('Express server listening on port ' + webServer.address().port);
+    });
+});

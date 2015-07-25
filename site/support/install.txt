@@ -1,0 +1,57 @@
+Install instruction
+
+// env variables for leapbase with default values
+
+process.env.LEAPBASE_HTTP_MODE || true
+process.env.LEAPBASE_HTTP_PORT || 8080
+process.env.LEAPBASE_HTTPS_MODE || false
+process.env.LEAPBASE_HTTPS_PORT || 443
+process.env.LEAPBASE_HTTPS_KEY || ''
+process.env.LEAPBASE_HTTPS_CERTIFICATE || ''
+process.env.LEAPBASE_HTTPS_ROOT_CERTIFICATE || ''
+process.env.LEAPBASE_INTERMEDIATE_CERTIFICATE || ''
+process.env.LEAPBASE_HTTP_TO_HTTPS || false
+
+process.env.LEAPBASE_DATABASE_TYPE || ''
+process.env.LEAPBASE_DATABASE_HOST || ''
+process.env.LEAPBASE_DATABASE_PORT || ''
+process.env.LEAPBASE_DATABASE_NAME || 'leapbase'
+
+process.env.LEAPBASE_EMAIL_SERVICE || 'gmail'
+process.env.LEAPBASE_EMAIL_USERNAME || 'test@example.com'
+process.env.LEAPBASE_EMAIL_PASSWORD || 'test'
+process.env.LEAPBASE_EMAIL_SENDER || 'test@example.com'
+
+process.env.LEAPBASE_ANALYTICS_TYPE || ''
+process.env.LEAPBASE_ANALYTICS_KEY || ''
+
+process.env.LEAPBASE_APP_NAME || 'leapbase'
+process.env.LEAPBASE_WEBSITE || 'http://localhost'
+process.env.LEAPBASE_ACCESS_CHECK || false
+process.env.LEAPBASE_ACCESS_CODE || 'password'
+process.env.LEAPBASE_APP_MODULES || 'app_modules'
+process.env.LEAPBASE_PUBLIC_NAME || 'public'
+process.env.LEAPBASE_USE_SOCKET_IO || false
+
+
+// git repository update
+git config user.name "user"
+git config user.email "user@example.com"
+git config credential.helper 'cache --timeout=3600'
+git config credential.helper store
+
+
+// nodejs install on Ubuntu
+sudo apt-get update
+sudo apt-get install nodejs
+
+
+// node module install
+npm install
+sudo npm install -g node-inspector
+
+
+// profile .bashrc
+export EDITOR=vi
+alias ll='ls -al '
+alias rg='grep -Inr '

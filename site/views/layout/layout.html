@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title|| "website" }}</title>
+
+{% block script %}
+<script src="/library/jquery/jquery.min.js"></script>
+<script src="/library/bootstrap/js/bootstrap.min.js"></script>
+{% endblock %}
+
+{% block style %}
+<link rel="stylesheet" href="/library/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/library/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="/style/style.css">
+{% endblock %}
+</head>
+
+<body>
+{% block header %}
+<div class="header-container container">
+    <div class="row">
+        <h4 class="col-md-12"><a href="/">Home</a></h4>
+    </div>
+</div>
+{% endblock %}
+
+<div class="body-container">
+{% block content %}{% endblock %}
+</div>
+
+{% block footer %}
+<div class="footer-container container">
+    <div class="row">
+        <span class="text-muted col-md-12"></span>
+    </div>
+</div>
+{% endblock %}
+
+</body>
+</html>
