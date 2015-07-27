@@ -17,8 +17,8 @@ npm start
 Visit website at  http://localhost:8080
 
 
-Setting
--------
+WebApp Setting
+--------------
 
 The web server setting is controlled via environment variables.
 For more information, see site/support/install.txt.
@@ -26,7 +26,7 @@ For more information, see site/support/install.txt.
 The setting can be specified by a site/setting.js file as well.
 An example file is available at site/support/setting.js.
 
-The following changes http port from default 8080 to 8050:
+The following command changes website port number from default 8080 to 8050:
 
 ```
 export LEAPBASE_HTTP_PORT=8050
