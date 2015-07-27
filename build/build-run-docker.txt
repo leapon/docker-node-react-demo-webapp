@@ -1,0 +1,11 @@
+# Create dnrdw docker image
+docker build --tag=leapon/dnrdw -f build/Dockerfile .
+
+# Run docker container
+docker run --name=dnrdw -t -d leapon/dnrdw
+
+# Check log file on dnrdw container
+docker logs -f dnrdw
+
+# Inspect Docker container
+docker inspect dnrdw
