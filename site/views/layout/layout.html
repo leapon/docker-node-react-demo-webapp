@@ -20,11 +20,23 @@
 
 <body>
 {% block header %}
-<div class="header-container container">
-    <div class="row">
-        <h4 class="col-md-12"><a href="/">Home</a></h4>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="header-container container-fluid">
+        <div class="collapse navbar-collapse navbar-site-main" id="navbar-target-menu-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="menu-main active">
+                    <a href="/">
+                        <span style="padding-left:5px;">Home</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/calendar">Calendar</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
     </div>
-</div>
+</nav>
 {% endblock %}
 
 <div class="body-container">
