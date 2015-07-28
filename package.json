@@ -36,7 +36,7 @@
     "scripts": {
         "start": "node ./site/bin/www"
     },
-    "author": "Yue Liu",
+    "author": "leapon",
     "browserify": {
         "transform": [
             "reactify",
