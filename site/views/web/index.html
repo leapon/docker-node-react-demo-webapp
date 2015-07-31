@@ -1,15 +1,40 @@
 {% extends '../layout/layout.html' %}
 
+{% block script %}
+{% parent %}
+<script type="text/jsx">
+var app = app || {};
+
+$().ready(function() {
+    console.log('in page');
+    updateCalendar();
+});
+
+function updateCalendar() {
+    app.targetDate = new moment();
+    app.componentData = {
+        year: app.targetDate.year(),
+        month: app.targetDate.month() + 1
+    };
+    $('#component1').empty(); // clear component
+    app.component = React.render(
+        <Calendar data={ app.componentData } />,
+        document.getElementById('component1')
+    );
+}
+</script>
+{% endblock %}
+
 {% block content %}
 <div class="body-container container">
-    <div class="row">
+    <div class="row" style="margin-bottom:25px;">
         <div class="col-md-12">
-            <h4>docker-node-react-demo-webapp</h4>
+            <h2 >My Calendar</h2>
         </div>  
     </div>
     <div class="row">
         <div class="col-md-8">
-            <div class="component1"></div>
+            <div id="component1"></div>
         </div>
     </div>
 </div>
