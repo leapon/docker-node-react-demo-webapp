@@ -2,7 +2,7 @@
 docker build --tag=leapon/dnrdw -f build/Dockerfile .
 
 # Run docker container
-docker run --name=dnrdw -p 8000:8000 -t -d leapon/dnrdw
+docker run --name=dnrdw -p 80:8000 -t -d leapon/dnrdw
 
 # Check log file on dnrdw container
 docker logs -f dnrdw
@@ -11,4 +11,4 @@ docker logs -f dnrdw
 docker inspect dnrdw
 
 # Visit dnrdw website at $(boot2docker ip)
-curl $(boot2docker ip):8000
+curl $(boot2docker ip)
