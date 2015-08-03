@@ -1,5 +1,5 @@
-The Docker-Node-React-Demo-Webapp Project
------------------------------------------
+The DNRDW Project
+-----------------
 
 This is a small web application that uses Bootstrap/ReactJS for frontend and Nodejs for backend. It serves as a starting point for make web application with similar structure.
 
