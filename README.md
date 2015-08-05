@@ -5,6 +5,8 @@ This is a small web application that uses Bootstrap/ReactJS for frontend and Nod
 
 On deployment, this webapp can be packaged into docker containers and then deployed to AWS. The docker build information is in the build folder.
 
+DNRDW is an abbreviation for Docker-NodeJS-ReactJS-Demo-Webapp.
+
 
 Get Started
 -----------
