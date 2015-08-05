@@ -1,9 +1,9 @@
-The Docker-Node-React-Demo-Webapp Project
------------------------------------------
+The DNRDW Project
+-----------------
 
-A demo webapp using ReactJS frontend and Nodejs backend. The short name is DNRDW.
+This is a small web application that uses Bootstrap/ReactJS for frontend and Nodejs for backend. It serves as a starting point for make web application with similar structure.
 
-This webapp is packaged into docker container and then deployed to AWS.
+On deployment, this webapp can be packaged into docker containers and then deployed to AWS. The docker build information is in the build folder.
 
 
 Get Started
