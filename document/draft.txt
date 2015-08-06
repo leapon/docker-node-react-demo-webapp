@@ -5,3 +5,30 @@ V8 is javascript engine in Google Chrome
 Runs on Google V8 engine
 Created by Ryan Dahl in 2009
 
+
+NodeJS is server side Javascript
+Event-driven with callback event handling (like Ajax handling in browser)
+Runs in single thread
+Has non-blocking IO to avoid waiting in slow IO operations
+
+  db.query('select * from user', function(result) {
+    console.log('got result:', result);
+  })
+  
+Can create HTTP server, TCP server, DNS server ...
+
+
+NodeJS packages are managed by NPM (Node Package Manager) http://npmjs.com
+On 8/4/2015 171,780 packages
+
+Good for stream-based real-time high-concurrent services
+Weak for cpu-intensive calculation
+
+
+How to start as a beginner
+
+https://www.codecademy.com/
+http://nodeschool.io/
+http://expressjs.com/
+
+
