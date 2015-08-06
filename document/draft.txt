@@ -2,9 +2,10 @@ NodeJS
 ======
 
 V8 is javascript engine in Google Chrome
-Runs on Google V8 engine
+Runs on top of Google V8 engine
 Created by Ryan Dahl in 2009
-
+Open Source, support by company (Joyent and npm inc)
+Available for Windows, MacOSX, Linux
 
 NodeJS is server side Javascript
 Event-driven with callback event handling (like Ajax handling in browser)
@@ -17,12 +18,17 @@ Has non-blocking IO to avoid waiting in slow IO operations
   
 Can create HTTP server, TCP server, DNS server ...
 
+One language for frontend and backend
+
+Framework for NodeJS:
+  ExpressJS - web framework, support template engine
+  SocketIO - real-time communication with WebSockets
 
 NodeJS packages are managed by NPM (Node Package Manager) http://npmjs.com
 On 8/4/2015 171,780 packages
 
 Good for stream-based real-time high-concurrent services
-Weak for cpu-intensive calculation
+Weak for cpu-intensive calculation, not 1.0 release yet (first release 4.0)
 
 
 How to start as a beginner
