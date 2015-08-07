@@ -1,2 +1,21 @@
 Amazon Web Services
 ===================
+
+Pay as you need and pay as you need
+Scale up and down
+
+Infrastructure
+--------------
+Computer: EC2
+Storage: S3 (object), EBS (block)
+Network: VPC, ELB, Route 53 (DNS)
+Database: RDS (MySQL, PgSQL, Oracle, SQL Server), Aurora, 
+
+Platform
+--------
+CloudFront, SQS, SNS, CloudFormation, ...
+
+Links
+-----
+
+aws.amazon.com
