@@ -1,2 +1,21 @@
 Docker
 ======
+
+Open Source
+Written in Go
+
+For any language, any database, targeting Linux (and more)
+Use boot2docker on MacOSX and Windows
+Build once, run everywhere
+Deploy reliably and consistently
+Take seconds to start
+
+Your software runs repeatably everywhere because container include all dependencies
+
+VM: runs full guest OS on top of host OS, large in size
+Docker: runs with host OS, small in size
+
+Links
+-----
+https://www.docker.com/
+https://hub.docker.com
