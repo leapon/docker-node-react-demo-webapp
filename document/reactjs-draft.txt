@@ -1,3 +1,29 @@
 ReactJS
 =======
 
+A Javascript library for building user interfce
+It is view inthe MVC
+Simple, declarative
+
+Divide and Conquer - Break UI into components
+Components are composable, reusable, maintainable, testable
+
+Two types of input for React component
+* Props - immutable
+* State - mutable
+
+One-way data flow
+
+Events flow up, data flow down
+
+Virtual DOM
+JSX - compiles markup to Javascript code
+
+DOM operation is slow, inconsistent, hard to test
+
+Links
+-----
+
+http://facebook.github.io/react/
+https://github.com/facebook/react
+https://facebook.github.io/flux/docs/overview.html
