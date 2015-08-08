@@ -1,15 +1,54 @@
-full stack web development with node/react/docker/aws
-=====================================================
+Full stack web development with node/react/docker/aws - an introduction
+=======================================================================
+
+
+Speaker Introduction
+--------------------
+
+Leapon - old dog with new tricks
+LinkedIn - http://linkedin.com/in/leapon
+Github - http://github.com/leapon
+
+Leapon LLC - data driven web development
+Portfolio - touchdownspace, patient profiles, kinglet
+Leapbase - http://github.com/leapon/leapbase
+
 
 Areas to be covered
 -------------------
 
-node - backend
-react/bootstrap - front end
-docker - deployment
-aws - hosting
+node - backend (60%)
+react/bootstrap - front end (10%)
+docker - deployment (10%)
+aws - hosting (10%)
+
+
+NodeJS
+------
 
 
 
 
+ReactJS
+-------
+
+
+
+
+Docker
+------
+
+
+
+AWS - Amazon Web Services
+-------------------------
+
+
+
+
+Q&A
+---
+
+Project repo:
+  https://github.com/leapon/docker-node-react-demo-webapp
 
