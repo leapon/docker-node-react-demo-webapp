@@ -1,0 +1,15 @@
+full stack web development with node/react/docker/aws
+=====================================================
+
+Areas to be covered
+-------------------
+
+node - backend
+react/bootstrap - front end
+docker - deployment
+aws - hosting
+
+
+
+
+
