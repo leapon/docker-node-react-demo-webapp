@@ -1,9 +1,9 @@
 Full stack web development with node/react/docker/aws - an introduction
-=======================================================================
+***********************************************************************
 
 
 Speaker Introduction
---------------------
+====================
 
 Leapon - old dog with new tricks
 LinkedIn - http://linkedin.com/in/leapon
@@ -15,7 +15,7 @@ Leapbase - http://github.com/leapon/leapbase
 
 
 Areas to be covered
--------------------
+===================
 
 node - backend (60%)
 react/bootstrap - front end (10%)
@@ -24,30 +24,37 @@ aws - hosting (10%)
 
 
 NodeJS
-------
+======
+
+What is NodeJS
+--------------
+
+NodeJS is server side Javascript
+Created by Ryan Dahl in 2009
+Runs on Google V8 engine (the Javascript engine on Chrome browser)
 
 
 
 
 ReactJS
--------
+=======
 
 
 
 
 Docker
-------
+======
 
 
 
 AWS - Amazon Web Services
--------------------------
+=========================
 
 
 
 
 Q&A
----
+===
 
 Project repo:
   https://github.com/leapon/docker-node-react-demo-webapp
