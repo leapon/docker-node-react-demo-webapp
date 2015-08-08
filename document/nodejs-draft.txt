@@ -24,7 +24,8 @@ Framework for NodeJS:
   ExpressJS - web framework, support template engine
   SocketIO - real-time communication with WebSockets
 
-NodeJS packages are managed by NPM (Node Package Manager) http://npmjs.com
+NodeJS packages are managed by NPM (Node Package Manager)
+http://npmjs.com
 On 8/4/2015 171,780 packages
 
 Good for stream-based real-time high-concurrent services
