@@ -10,9 +10,6 @@ WORKDIR /opt/nodejs
 # Install the dependencies modules
 RUN npm install
 
-# Run make build
-#RUN make build
-
 # Expose environment variables
 ENV LEAPBASE_HTTP_PORT=8000
 
