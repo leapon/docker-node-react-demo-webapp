@@ -15,7 +15,13 @@ Platform
 --------
 CloudFront, SQS, SNS, CloudFormation, ...
 
+Run docker container
+--------------------
+ssh -i ~/key/leapon-reactlet-aws.pem ubuntu@52.3.90.30
+docker pull leapon/dnrdw
+docker run --name=dnrdw -p 80:8000 -t -d leapon/dnrdw
+docker logs -f dnrdw
+
 Links
 -----
-
 aws.amazon.com
