@@ -15,6 +15,10 @@ Your software runs repeatably everywhere because container include all dependenc
 VM: runs full guest OS on top of host OS, large in size
 Docker: runs with host OS, small in size
 
+
+docker login
+docker push leapon/dnrdw 
+
 Links
 -----
 https://www.docker.com/
