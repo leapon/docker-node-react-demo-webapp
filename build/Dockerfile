@@ -1,5 +1,5 @@
 # Dockerfile to create a dnrdw image
-FROM google/nodejs
+FROM node
 MAINTAINER leapon
 
 # Add files to the image

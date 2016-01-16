@@ -1,3 +1,7 @@
+# Install docker
+# For Windows and MacOSX, need to install Docker Toolbox: https://www.docker.com/docker-toolbox
+# For MacOSX, Run "Docker Quickstart Terminal.app" to setup Docker Daemon
+
 # Create dnrdw docker image
 docker build --tag=leapon/dnrdw -f build/Dockerfile .
 
