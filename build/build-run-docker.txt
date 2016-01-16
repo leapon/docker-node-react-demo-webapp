@@ -2,6 +2,17 @@
 # For Windows and MacOSX, need to install Docker Toolbox: https://www.docker.com/docker-toolbox
 # For MacOSX, Run "Docker Quickstart Terminal.app" to setup Docker Daemon
 
+# docker ready message:
+docker is configured to use the default machine with IP 192.168.99.100
+
+/usr/local/bin/docker-machine env default
+export DOCKER_TLS_VERIFY="1"
+export DOCKER_HOST="tcp://192.168.99.100:2376"
+export DOCKER_CERT_PATH="/Users/yliu0/.docker/machine/machines/default"
+export DOCKER_MACHINE_NAME="default"
+# Run this command to configure your shell: 
+# eval $(/usr/local/bin/docker-machine env default)
+
 # Create dnrdw docker image
 docker build --tag=leapon/dnrdw -f build/Dockerfile .
 
@@ -14,5 +25,16 @@ docker logs -f dnrdw
 # Inspect Docker container
 docker inspect dnrdw
 
-# Visit dnrdw website at $(boot2docker ip)
-curl $(boot2docker ip)
+# Visit dnrdw website at docker ip address shown above: 192.168.99.100
+http://192.168.99.100
+
+
+curl http://192.168.99.100
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>website</title>
+...
